@@ -49,3 +49,31 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 El contenedor no sigue corriendo, ya que con el run -it al salir, se cierra directamente. Al volver a ejecutarlo, el paquete nano no esta instalado ya que se crea un nuevo contenedor.
 
 ![](assets/image-20230116122702168.png)
+
+4. Crea un contenedor demonio con un servidor nginx, usando la imagen oficial de nginx. Al crear el contenedor, ¿has tenido que indicar algún comando para que lo ejecute? Accede al navegador web y comprueba que el servidor esta funcionando. Muestra los logs del contenedor.
+
+   ```bash
+   docker pull nginx
+   ```
+
+![](assets/image-20230116122751354.png)
+
+Para ejecutarlo, hay que ejecutar el siguiente comando:
+
+```bash
+docker run nginx
+```
+
+![](assets/image-20230116123010333.png)
+
+Para ver la IP del docker, se hace el siguiente comando:
+
+```bash
+docker inspect id_contenedor
+```
+
+![](assets/image-20230116123345659.png)
+
+Y el resultado final, es este:
+
+![](assets/image-20230116123353245.png)
