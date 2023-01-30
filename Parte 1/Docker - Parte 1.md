@@ -30,3 +30,12 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 ![](assets/image-20230116121046584.png)
 
+2. Ejecuta un contenedor a partir de la imagen hello-word. Comprueba que nos devuelve la salida adecuada. Comprueba que no se está ejecutando. Lista los contenedores que están parado. Borra el contenedor.
+
+   ```bash
+   sudo docker run hello-word
+   ```
+
+   
+
+![](assets/image-20230116121645828.png)
