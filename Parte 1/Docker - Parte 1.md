@@ -6,7 +6,7 @@
    apt install ca-certificates curl gnupg lsb-release
    ```
 
-![image-20230116120937545](C:\Users\Usuario\Documents\GitHub\Docker\Parte 1\assets\image-20230116120937545.png)
+![](assets/image-20230116120937545.png)
 
 ```bash
 sudo mkdir -p /etc/apt/keyrings
