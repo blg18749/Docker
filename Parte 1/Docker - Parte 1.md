@@ -36,6 +36,16 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
    sudo docker run hello-word
    ```
 
-   
-
 ![](assets/image-20230116121645828.png)
+
+3. Crea un contenedor interactivo desde una imagen debian. Instala un paquete (por ejemplo nano). Sal de la terminal, ¿sigue el contenedor corriendo? ¿Por qué?. Vuelve a iniciar el contenedor y accede de nuevo a él de forma interactiva. ¿Sigue instalado el nano?. Sal del contenedor, y bórralo. Crea un nuevo contenedor interactivo desde la misma imagen. ¿Tiene el nano instalado?
+
+![](assets/image-20230116122111131.png)
+
+![](assets/image-20230116122238108.png)
+
+![](assets/image-20230116122414225.png)
+
+El contenedor no sigue corriendo, ya que con el run -it al salir, se cierra directamente. Al volver a ejecutarlo, el paquete nano no esta instalado ya que se crea un nuevo contenedor.
+
+![](assets/image-20230116122702168.png)
