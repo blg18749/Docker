@@ -10,6 +10,6 @@
    docker pull php:7.4-apache
    ```
 
-   ![](C:\Users\Usuario\Documents\GitHub\Docker\Parte 2\assets\captura1.png)
+   ![](assets/captura1.png)
 
    
