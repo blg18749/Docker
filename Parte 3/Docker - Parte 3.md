@@ -35,3 +35,11 @@ docker cp index.html apache1:/var/www/html
    ```
 
    ![](assets/captura5.png)
+
+6. Crea un nuevo contenedor y monta el mismo volumen como en el ejercicio anterior.
+
+   ```bash
+   docker run -d --name apache1 -v miweb:/var/www/html php:7.4-apache
+   ```
+
+   ![](assets/captura6.png)
