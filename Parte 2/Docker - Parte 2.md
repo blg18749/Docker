@@ -63,3 +63,7 @@ docker cp info.php apache:/var/www/html
    ```
 
    ![](assets/captura7.png)
+
+7. Accede al fichero `info.php` desde un navegador web.
+
+![](assets/captura8.png)
