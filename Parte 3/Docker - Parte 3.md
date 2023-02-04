@@ -64,3 +64,11 @@ docker cp index.html apache1:/var/www/html
    ```
 
    ![](assets/captura8.png)
+
+2. Crea un contenedor desde la imagen `php:7.4-apache` donde montes en el directorio `/var/www/html` el directorio que has creado por medio de `bind mount`.
+
+```bash
+docker run -d --name apache3 -v /home/docker/contenedor:/var/www/html php:7.4-apache
+```
+
+![](assets/captura9.png)
