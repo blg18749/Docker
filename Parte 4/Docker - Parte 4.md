@@ -83,3 +83,11 @@ Pantallazo donde se pueda comprobar que si conectamos el contenedor u1 a la red2
    ```
 
 ![](assets/captura8.JPG)
+
+3. A continuación, siguiendo la documentación de la imagen nextcloud , crea un contenedor conectado a la misma red, e indica las variables adecuadas para que se configure de forma adecuada y realice la conexión a la base de datos. El contenedor también debe ser persistente usando almacenamiento.
+
+```bash
+docker run -d --name nextcloud -v nextcloud:/var/www/html -v apps:/var/www/html/custom_apps -v config:/var/www/html/config -v data:/var/www/html/data -v /home/daw/mysql:/var/lib/mysql nextcloud
+```
+
+![](assets/captura9.JPG)
