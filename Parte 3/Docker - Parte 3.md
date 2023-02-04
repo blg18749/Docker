@@ -15,3 +15,11 @@ docker run -d --name apache1 -v miweb:/var/www/html php:7.4-apache
 ```
 
 ![](assets/captura2.png)
+
+3. Utiliza el comando `docker cp` para copiar un fichero `index.html` en el directorio `/var/www/html`.
+
+```bash
+docker cp index.html apache1:/var/www/html
+```
+
+![](assets/captura3.png)
