@@ -13,3 +13,11 @@
    ![](assets/captura1.png)
 
    
+
+2. Muestras las imágenes que tienes descargadas.
+
+```bash
+docker images
+```
+
+![](assets/captura2.png)
