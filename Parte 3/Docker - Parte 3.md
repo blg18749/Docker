@@ -98,3 +98,9 @@ docker stop idcontenedor && docker rm idcontenedor
    ```
 
 ![](assets/captura14.png)
+
+7.  Accede al contenedor desde el navegador para ver la información ofrecida por el fichero `index.html`. ¿Se sigue viendo el mismo contenido?
+
+Si, porque es el mismo volumen.
+
+![](assets/captura15.png)
