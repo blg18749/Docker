@@ -21,3 +21,11 @@ docker images
 ```
 
 ![](assets/captura2.png)
+
+3. Crea un contenedor demonio con la imagen php:7.4-apache.
+
+```bash
+docker run -d --name apache php:7.4-apache
+```
+
+![](assets/captura3.png)
