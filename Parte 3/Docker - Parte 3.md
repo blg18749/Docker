@@ -76,3 +76,9 @@ docker run -d --name apache3 -v /home/docker/contenedor:/var/www/html php:7.4-ap
 3. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero `index.html`.
 
 ![](assets/captura10.png)
+
+4. Modifica el contenido del fichero `index.html` en tu host y comprueba que al refrescar la página ofrecida por el contenedor, el contenido ha cambiado.
+
+![](assets/captura12.png)
+
+![](assets/captura11.png)
