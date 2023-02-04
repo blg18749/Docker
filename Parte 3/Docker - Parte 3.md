@@ -43,3 +43,9 @@ docker cp index.html apache1:/var/www/html
    ```
 
    ![](assets/captura6.png)
+
+7. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero `index.html`. ¿Seguía existiendo ese fichero?
+
+   Si, al usar el mismo volumen.
+
+![](assets/captura7.png)
