@@ -23,3 +23,7 @@ docker cp index.html apache1:/var/www/html
 ```
 
 ![](assets/captura3.png)
+
+4. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero `index.html.`
+
+![](assets/captura4.png)
