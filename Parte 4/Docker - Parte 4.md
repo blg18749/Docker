@@ -67,3 +67,19 @@ Pantallazo donde desde cualquiera de los dos contenedores se pueda ver que no po
 Pantallazo donde se pueda comprobar que si conectamos el contenedor u1 a la red2 (con docker network connect ), desde el contenedor u1, tenemos acceso al contenedor u2 mediante ping, tanto por nombre como por ip.
 
 ![](assets/captura6.JPG)
+
+
+
+# Despliegue de Nextcloud + MariaDB
+
+1. Crea una red de tipo bridge
+
+![](assets/captura7.JPG)
+
+2. Crea el contenedor de la base de datos conectado a la red que has creado. La base de datos se debe configurar para crear una base de dato y un usuario. Además el contenedor debe utilizar almacenamiento (volúmenes o bind mount) para guardar la información. Puedes seguir la documentación de mariadb o la de PostgreSQL .
+
+   ```bash
+   docker run --detach --network red3 --name mariadb -v /home/daw/mariadb:/var/lib/mysql --env MARIADB_USER=usuario -env MARIADB_PASSWORD=password --env MARIADB_ROOT_PASSWORD=password1 mariadb:10.5
+   ```
+
+![](assets/captura8.JPG)
