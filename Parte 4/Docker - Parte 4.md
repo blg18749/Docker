@@ -47,3 +47,23 @@ docker network create --driver=bridge --subnet=172.28.0.0/16 --gateway=172.28.0.
 5. Entrar en ese contenedor e instalar la aplicación ping (apt update && apt install inetutils-ping).
 
 ![](assets/captura13.png)
+
+EXTRAS:
+
+Captura de pantalla donde se vea la configuración de red de `u1`.
+
+![](assets/captura14.png)
+
+Captura de pantalla donde se vea la configuración de red de `u2`.
+
+![](assets/captura15.png)
+
+Pantallazo donde desde cualquiera de los dos contenedores se pueda ver que no podemos hacer ping al otro ni por ip ni por nombre.
+
+![](assets/captura3.jpg)
+
+![](assets/captura4.jpg)
+
+Pantallazo donde se pueda comprobar que si conectamos el contenedor u1 a la red2 (con docker network connect ), desde el contenedor u1, tenemos acceso al contenedor u2 mediante ping, tanto por nombre como por ip.
+
+![](assets/captura6.jpg)
