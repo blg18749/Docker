@@ -82,3 +82,11 @@ docker run -d --name apache3 -v /home/docker/contenedor:/var/www/html php:7.4-ap
 ![](assets/captura12.png)
 
 ![](assets/captura11.png)
+
+5. Borra el contenedor
+
+```bash
+docker stop idcontenedor && docker rm idcontenedor
+```
+
+![](assets/captura13.png)
