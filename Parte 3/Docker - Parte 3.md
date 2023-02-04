@@ -72,3 +72,7 @@ docker run -d --name apache3 -v /home/docker/contenedor:/var/www/html php:7.4-ap
 ```
 
 ![](assets/captura9.png)
+
+3. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero `index.html`.
+
+![](assets/captura10.png)
