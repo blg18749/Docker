@@ -29,3 +29,11 @@ docker run -d --name apache php:7.4-apache
 ```
 
 ![](assets/captura3.png)
+
+4. Comprueba el tamaño del contenedor en el disco duro.
+
+```bash
+docker ps -a -s
+```
+
+![](assets/captura4.png)
