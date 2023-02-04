@@ -31,3 +31,7 @@ docker network create --driver=bridge --subnet=172.28.0.0/16 --gateway=172.28.0.
    ```
 
 ![](assets/captura2.JPG)
+
+3. Entrar en ese contenedor e instalar la aplicación ping (apt update && apt install inetutils-ping).
+
+![](assets/captura11.PNG)
