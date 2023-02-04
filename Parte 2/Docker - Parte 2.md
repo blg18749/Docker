@@ -37,3 +37,21 @@ docker ps -a -s
 ```
 
 ![](assets/captura4.png)
+
+5. Con la instrucción docker cp podemos copiar ficheros a o desde un contenedor. Puedes encontrar información es esta página. Crea un fichero en tu ordenador, con el siguiente contenido:
+
+   ```php
+   <?php
+       echo phpinfo();
+   ?>
+   ```
+
+   ![](assets/captura5.png)
+
+   Copia un fichero info.php al directorio /var/www/html del contenedor con docker cp.
+
+```bash
+docker cp info.php apache:/var/www/html
+```
+
+![](assets/captura6.png)
