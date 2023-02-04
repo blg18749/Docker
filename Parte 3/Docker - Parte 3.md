@@ -27,3 +27,11 @@ docker cp index.html apache1:/var/www/html
 4. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero `index.html.`
 
 ![](assets/captura4.png)
+
+5. Borra el contenedor
+
+   ```bash
+   docker stop idcontenedor && docker rm idcontenedor
+   ```
+
+   ![](assets/captura5.png)
