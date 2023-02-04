@@ -35,3 +35,11 @@ docker network create --driver=bridge --subnet=172.28.0.0/16 --gateway=172.28.0.
 3. Entrar en ese contenedor e instalar la aplicación ping (apt update && apt install inetutils-ping).
 
 ![](assets/captura11.PNG)
+
+4. Poner en ejecución un contenedor de la imagen `ubuntu:20.04` que tenga como hostname `host2` y que esté conectado a la red2. En este caso será docker el que le de una IP correspondiente a esa red. Lo llamaremos `u2`.
+
+   ```bash
+   docker run -it --name u2 --hostname host2 --network red2 ubuntu:20.04
+   ```
+
+   ![](assets/captura12.PNG)
