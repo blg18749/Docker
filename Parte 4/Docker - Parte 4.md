@@ -62,8 +62,8 @@ Pantallazo donde desde cualquiera de los dos contenedores se pueda ver que no po
 
 ![](assets/captura3.jpg)
 
-![](assets/captura4.jpg)
+![](assets/captura4.JPG)
 
 Pantallazo donde se pueda comprobar que si conectamos el contenedor u1 a la red2 (con docker network connect ), desde el contenedor u1, tenemos acceso al contenedor u2 mediante ping, tanto por nombre como por ip.
 
-![](assets/captura6.jpg)
+![](assets/captura6.JPG)
