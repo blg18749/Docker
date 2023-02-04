@@ -49,3 +49,18 @@ docker cp index.html apache1:/var/www/html
    Si, al usar el mismo volumen.
 
 ![](assets/captura7.png)
+
+
+
+## Ejercicios de Bind Mount
+
+1. Crea un directorio en tu host y dentro crea un fichero `index.html`.
+
+   ```bash
+   mkdir contenedor
+   cd contenedor/
+   nano index.html
+   cat index.html
+   ```
+
+   ![](assets/captura8.png)
