@@ -90,3 +90,11 @@ docker stop idcontenedor && docker rm idcontenedor
 ```
 
 ![](assets/captura13.png)
+
+6. Crea un nuevo contenedor y monta el mismo directorio como en el ejercicio anterior.
+
+   ```bash
+   docker run -d --name apache4 -v /home/docker/contenedor:/var/www/html php:7.4-apache
+   ```
+
+![](assets/captura14.png)
