@@ -91,3 +91,7 @@ docker run -d --name nextcloud -v nextcloud:/var/www/html -v apps:/var/www/html/
 ```
 
 ![](assets/captura9.JPG)
+
+4. Accede a la aplicación usando un navegador web
+
+![](assets/captura10.JPG)
