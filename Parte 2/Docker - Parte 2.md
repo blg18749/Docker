@@ -55,3 +55,11 @@ docker cp info.php apache:/var/www/html
 ```
 
 ![](assets/captura6.png)
+
+6. Vuelve a comprobar el espacio ocupado por el contenedor.
+
+   ```bash
+   docker ps -a -s
+   ```
+
+   ![](assets/captura7.png)
